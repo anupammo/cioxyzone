@@ -1,0 +1,446 @@
+/* style by https://anupammondal.in */
+/* Global Style */
+.txt-fff {
+  color: #ffffff;
+}
+.txt-blue {
+  color: #2196F3;
+}
+.txt-ozone {
+  color: #FF5722;
+}
+.txt-green {
+    color: #02b109;
+}
+a.txt-black, a.txt-black:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.ico-mid {
+  width: fit-content;
+  margin: 30px auto;
+}
+.icon-block {
+    width: fit-content;
+    margin: 25px auto;
+}
+.icon-block i {
+    transition: .4s ease;
+    cursor: crosshair;
+}
+.icon-block:hover i {
+    color: #ff5722;
+}
+.section-padd {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.section-normal {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.navbar {
+    background-color: #000000b0;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eeeeee20;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #0000;
+    border-color: #337ab7;
+}
+.dropdown-menu>li>a {
+    color: #fff;
+}
+.dropdown-menu {
+    background-color: #000000b0;
+}
+a, a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.no-padd {
+    padding: 0px !important;
+}
+.bgdark {
+  background-color: #000000aa;
+  padding-bottom: 60px;
+}
+footer {
+    background-color: #2196F3;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+hr {
+    border-top: 3px solid #FFEB3B;
+    width: 100px;
+}
+hr.hr-left {
+    border-top: 3px solid #FF5722;
+    /* border-top: 3px solid #FFEB3B; */
+    width: 100px;
+    margin-left: 0px;
+}
+hr.hr-ozone {
+    border-top: 3px solid #FF5722;
+    width: 100px;
+}
+ul.list-unstyled li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+ul.list-styled li {
+    list-style-type: none;
+}
+dl dt, dl dd {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+a.btn{
+    border: #ffffff solid 2px;
+    border-radius: 0px;
+    width: 180px;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: #00000082;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+button.btn {
+    border: #FF5722 solid 1px;
+    border-radius: 0px;
+    width: 180px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #FF5722;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+button.btn:hover {
+    border: #FF5722 solid 1px;
+    color: #FF5722;
+    background-color: #FFF;
+}
+a.btn-plane {
+    border: #FF5722 solid 2px;
+    color: #FF5722;
+    border-radius: 0px;
+    width: 160px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s ease;
+}
+a.btn-plane:hover {
+    background-color: #EE5722;
+    border: #FF5722 solid 2px;
+    color: #FFF;
+}
+a:hover.btn {
+    color: #000000;
+    background-color: #fff;
+    border: #000 solid 2px;
+}
+.mid-block {
+    margin: 0 auto;
+    /* width: fit-content; */
+}
+.h3-bold {
+    font-weight: 900;
+    margin-top: 60px;
+}
+h3.prd-head {
+  margin-top: 25px;
+}
+.i-foot {
+    padding-right: 5px;
+    font-size: 1.2em;
+}
+img.nav.brand-right {
+    width: 150px;
+    margin: 8px auto;
+}
+/* Global Style */
+/* Homepage */
+header {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+header h1 {
+    font-weight: 900;
+    font-size: 3em;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+header h2 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #000;
+}
+.header-bottom {
+  margin-top: -100px;
+}
+.block-bg-one {
+    background-image: url(https://images.pexels.com/photos/1677275/pexels-photo-1677275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+}
+.block-bg-two {
+    background-image: url(https://images.pexels.com/photos/1632780/pexels-photo-1632780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+}
+.block-bg-last {
+    background-image: url(https://images.pexels.com/photos/842210/pexels-photo-842210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+}
+.block-bg-fill {
+    padding: 60px 15px 15px 15px;
+    margin-bottom: 30px;
+    background-color: #000000aa;
+    border: #fff solid 3px;
+}
+.no-padd h3 {
+    background-color: #2196F3;
+    margin: 0px;
+    padding: 15px 0px;
+    color: #fff;
+    font-weight: 900;
+}
+.no-padd a {
+    background-color: #2196F3;
+    margin: 0px;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pics-block {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+.p-testimoni {
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 25px auto;
+}
+.img-testimoni {
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.facts {
+    border: #fff solid 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.facts-h2 {
+    letter-spacing: 4px;
+    font-family: monospace;
+    font-size: 3em;
+}
+.facts-h3 {
+    font-family: sans-serif;
+    font-size: 1.4em;
+}
+.parallax-two {
+  background-image: url('https://images.pexels.com/photos/1117493/pexels-photo-1117493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+}
+.parallax-three {
+  /* background-image: url('https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+  background-image: url('https://images.pexels.com/photos/1487952/pexels-photo-1487952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Hover effect by anupammondal.in */
+.img-hov {
+  filter: grayscale(0%);
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.pics-block:hover .img-hov {
+  filter: grayscale(100%);
+}
+.pics-block:hover .middle {
+  opacity: 1;
+}
+.text {
+  border: #fff solid 2px;
+  background-color: #00000070;
+  color: white;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+/* faq page */
+/* Homepage */
+/* about page */
+.parallax-about {
+  background-image: url('https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.table {
+    margin-top: 20px;
+}
+.table.table-ozone th {
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: #fff dashed 1px;
+    padding: 15px 10px;
+    color: #FF5722;
+}
+.table.table-ozone td {
+    border: #FFF dashed 1px;
+    padding: 5px 8px;
+    background-color: #0006;
+    color: #fff;
+}
+.table.table-blue th {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #2196F3;
+    border: #2196F3 dashed 1px;
+    padding: 15px 10px;
+    color: #fff;
+}
+.table.table-blue td {
+    text-align: center;
+    border: #2196F3 dashed 1px;
+    padding: 5px 8px;
+}
+figure {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+figcaption {
+    display: block;
+    caption-side: top;
+    text-align: center;
+    margin-bottom: -25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+}
+.img-linux {
+    border: #ff5722 solid 30px;
+    border-bottom: #ff5722 solid 1px;
+    border-left: #ff5722 solid 1px;
+    border-right: #ff5722 solid 1px;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ozone-facts {
+    border: #fff solid 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 15px 5px 10px 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.ozone-facts:hover {
+    background-color: #0006;
+}
+.facts-h5 {
+    font-size: 1.1em;
+}
+/* about page */
+/* contact page */
+.form-control {
+    border-radius: 0px;
+    border: #FF5722 solid 1px;
+    color: #2196F3;
+    background-color: #000000e0;
+    /* text-transform: uppercase; */
+}
+#cform {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+/* contact page */
+/* products page */
+.parallax-product-zeon {
+  background-image: url('https://images.pexels.com/photos/789296/pexels-photo-789296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-product-nisa {
+  background-image: url('https://images.pexels.com/photos/1586481/pexels-photo-1586481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-product-gwpone {
+  background-image: url('https://images.pexels.com/photos/160767/women-friends-friendship-helping-together-160767.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-product-gwptwo {
+  background-image: url('https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* products page */
+/* faq page */
+blockquote {
+    border-left: 5px solid #FF5722;
+}
+.form-msg {
+    width: fit-content;
+    margin: 15px auto;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #00000052;
+    text-transform: inherit;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+/* faq page */
